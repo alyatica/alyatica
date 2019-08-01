@@ -134,11 +134,20 @@ ol, ul{
 .practice-areas{
     display: flex;
     width: inherit;
+    height: 450px;
+}
+
+.practice-areas-panel1{
+    position: absolute;
+    background-color: #e9f4f6;
+    width: 43%;
+    height: 400px;
+    top: 100vh;
+    z-index: -1;
 }
 
 .practice-areas-title{
     display: inherit;
-    background-color: red;
     margin: 0;
     width: 50%;
     height: inherit;
@@ -148,7 +157,6 @@ ol, ul{
 
 .practice-areas-description{
     display: inherit;
-    background-color: blue;
     margin: 0;
     width: 50%;
     height: inherit;
