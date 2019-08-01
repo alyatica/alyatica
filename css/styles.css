@@ -184,12 +184,23 @@ ol, ul{
 }
 
 .practice-areas-description{
-    display: inherit;
+    display: flex;
     margin: 0;
-    width: 50%;
+    width: 64%;
     height: inherit;
     z-index: -1;
     position: relative;
+    justify-content: center;
+    color: #172A5C;
+}
+
+.practice-areas-description-title{
+    text-transform: uppercase;
+    font-size: ;
+}
+
+.practice-areas-description-body{
+
 }
 
 .vision{
