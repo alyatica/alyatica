@@ -135,22 +135,25 @@ ol, ul{
     display: flex;
     width: inherit;
 }
-.practice-areas-panel1{
+
+.practice-areas-title{
     display: inherit;
     background-color: red;
     margin: 0;
     width: 50%;
     height: inherit;
     z-index: -1;
+    position: relative;
 }
 
-.practice-areas-panel2{
+.practice-areas-description{
     display: inherit;
     background-color: blue;
     margin: 0;
     width: 50%;
     height: inherit;
     z-index: -1;
+    position: relative;
 }
 
 .vision{
