@@ -133,21 +133,22 @@ ol, ul{
 
 .practice-areas{
     display: flex;
+    width: inherit;
 }
 .practice-areas-panel1{
     display: inherit;
-    background-color: #e9f4f6;
+    background-color: red;
     margin: 0;
-    width: 43%;
+    width: 50%;
     height: inherit;
     z-index: -1;
 }
 
 .practice-areas-panel2{
     display: inherit;
-    background-color: white;
-    left:43%;
+    background-color: blue;
     margin: 0;
+    width: 50%;
     height: inherit;
     z-index: -1;
 }
