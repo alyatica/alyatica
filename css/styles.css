@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 .logo{
@@ -77,4 +78,22 @@ ol, ul{
 
 .header a:hover{
     color: #386892;
+}
+
+.hero img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+}
+
+.hero-description{
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    color: white;
+    height: 50%;
+    /* width: 50%; */
+    background-color: blue;
 }
