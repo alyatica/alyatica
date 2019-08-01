@@ -141,8 +141,18 @@ ol, ul{
     position: absolute;
     background-color: #e9f4f6;
     width: 43%;
-    height: 400px;
+    height: 450px;
     top: 100vh;
+    z-index: -1;
+}
+
+.practice-areas-panel2{
+    position: absolute;
+    background-color: #fff;
+    width: 57%;
+    height: 450px;
+    top: 100vh;
+    left: 43%;
     z-index: -1;
 }
 
