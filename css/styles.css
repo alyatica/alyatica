@@ -1,7 +1,15 @@
 body{
     font-family: "Open Sans", sans-serif;
     margin: 0;
-    background-color: aquamarine;
+    background-color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+section{
+    display: block;
 }
 
 .container{
@@ -82,18 +90,70 @@ ol, ul{
 
 .hero img{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     object-fit: cover;
     z-index: 0;
     position: relative;
 }
 
+.hero-panel{
+    background-color: #24325e;
+    z-index: 1;
+    height: 100vh;
+    width: 43%;
+    position: absolute;
+    top: 0%;
+    opacity: .8;
+}
+
 .hero-description{
     z-index: 1;
     position: absolute;
-    top: 10%;
+    top: 40%;
     color: white;
     height: 50%;
-    /* width: 50%; */
-    background-color: blue;
+    width: 300px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.hero-description h1{
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: 100;
+    font-size: 42px;
+    margin: 0;
+}
+
+.hero-description .bold-title{
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.practice-areas{
+    display: flex;
+}
+.practice-areas-panel1{
+    display: inherit;
+    background-color: #e9f4f6;
+    margin: 0;
+    width: 43%;
+    height: inherit;
+    z-index: -1;
+}
+
+.practice-areas-panel2{
+    display: inherit;
+    background-color: white;
+    left:43%;
+    margin: 0;
+    height: inherit;
+    z-index: -1;
+}
+
+.vision{
+    display: flex;
+    background-color: #172A5C;
+    color: white;
 }
