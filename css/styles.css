@@ -6,6 +6,7 @@ body{
 
 h1{
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 section{
@@ -134,14 +135,14 @@ ol, ul{
 .practice-areas{
     display: flex;
     width: inherit;
-    height: 450px;
+    height: 550px;
 }
 
 .practice-areas-panel1{
     position: absolute;
     background-color: #e9f4f6;
     width: 43%;
-    height: 450px;
+    height: 550px;
     top: 100vh;
     z-index: -1;
 }
@@ -150,7 +151,7 @@ ol, ul{
     position: absolute;
     background-color: #fff;
     width: 57%;
-    height: 450px;
+    height: 550px;
     top: 100vh;
     left: 43%;
     z-index: -1;
@@ -159,10 +160,27 @@ ol, ul{
 .practice-areas-title{
     display: inherit;
     margin: 0;
-    width: 50%;
+    width: 36%;
     height: inherit;
     z-index: -1;
+    color: #172A5C;
+}
+
+.practice-areas-title div{
+    width: 300px;
     position: relative;
+    top: 90px;
+}
+
+.practice-areas-title div h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 42px;
+    margin: 0;
+}
+
+.practice-areas-title div h1:nth-child(2){
+    font-weight: 100;
 }
 
 .practice-areas-description{
