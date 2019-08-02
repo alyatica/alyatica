@@ -1,7 +1,7 @@
 body{
     font-family: "Open Sans", sans-serif;
     margin: 0;
-    background-color: white;
+    background-color: #fafafa;
 }
 
 h1{
@@ -11,6 +11,10 @@ h1{
 
 section{
     display: block;
+}
+
+hr{
+    border: #386892 0.5px solid;
 }
 
 .container{
@@ -250,4 +254,90 @@ ol, ul{
 
 .vision-description p{
     padding-bottom: 15px;
+}
+
+.group-image{
+    background-color: #e9f4f6;
+}
+
+.group-image img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+}
+
+.attorneys{
+    background-color: #e9f4f6;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    color: #00305b;
+}
+
+.attorneys-title{
+    display: block;
+    width: 950px;
+    position: absolute;
+    text-align: center;
+}
+
+.attorneys-title h1{
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding-bottom: 80px;
+}
+
+.attorneys-title h1 span{
+    font-weight: 800;
+}
+
+.attorneys-description{
+    display: flex;
+    width: 950px;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.attorneys-description .lowercase{
+    text-transform: lowercase;
+}
+
+.attorney-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.attorney-title{
+    color: #386892;
+}
+
+.contact{
+    height: 50vh;
+}
+
+.contact img{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    
+}
+
+.contact-panel{
+    background-color: #00305b;
+    position: absolute;
+    opacity: 0.7;
+    width: 100vw;
+    height: 50vh;
+    z-index: -1;
+}
+
+.back-to-top{
+    
 }
