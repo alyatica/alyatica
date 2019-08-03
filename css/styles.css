@@ -321,12 +321,12 @@ ol, ul{
 }
 
 .contact{
-    height: 600px;
+    height: 700px;
 }
 
 .contact img{
     width: 100vw;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
     z-index: -1;
     position: absolute;
@@ -335,7 +335,7 @@ ol, ul{
 .contact-panel{
     background-color: #24325e;
     z-index: 1;
-    height: 600px;
+    height: 700px;
     width: 43%;
     position: absolute;
     opacity: .8;
@@ -349,7 +349,7 @@ ol, ul{
     position: absolute;
     opacity: 0.7;
     width: 100vw;
-    height: 600px;
+    height: 700px;
     z-index: -1;
 }
 
