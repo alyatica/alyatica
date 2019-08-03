@@ -1,3 +1,6 @@
+html{
+    max-height: 100%;
+}
 body{
     font-family: "Open Sans", sans-serif;
     margin: 0;
@@ -263,7 +266,7 @@ ol, ul{
 
 .group-image img{
     width: 100vw;
-    height: 50vh;
+    height: 500px;
     object-fit: cover;
     z-index: 0;
     position: relative;
@@ -467,6 +470,7 @@ form{
 
 footer{
     width: 100%;
+    clear: both;
 }
 .footer-description p{
     text-align: center;
